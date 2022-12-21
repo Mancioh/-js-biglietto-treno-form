@@ -1,0 +1,93 @@
+/*** RESET ***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+:root {
+  --primary-color: #b91450;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: white;
+}
+section.active {
+  display: block;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* layout spazio inserimento dati */
+.white_area {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 30px;
+}
+.user_data_form {
+  border-radius: 15px;
+}
+.input_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_form_item label {
+  padding-bottom: 0.5rem;
+}
+.user_form_item input,
+.user_form_item select {
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.buttons button {
+  margin: 0 15px;
+  padding: 0 0.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* layout spazio del biglietto */
+.invisibility {
+  display: none;
+}
+.ticket_title {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.ticket_info {
+  color: black;
+}
+.ticket_info h3 {
+  text-transform: uppercase;
+}
+.user_printed_name {
+  background-color: #808080;
+  font-weight: bold;
+}
+.ticket_numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.card_title {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#ticket_type,
+#carriage,
+#cp_code,
+#ticket_amount {
+  padding-top: 30px;
+}
